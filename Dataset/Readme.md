@@ -10,26 +10,20 @@ Desenvolver um modelo de CNN que possa detectar anomalias em um conjunto de dado
 imagens médicas. O modelo deve ser capaz de identificar e localizar a anomalia na imagem,
 bem como classificar o tipo de anomalia (se possível).
 ## Coleta de Dados:
-O dataset ChestX-ray compreende 112.120 imagens de raios-X de vista frontal de 30.805
-pacientes, com quatorze rótulos de doenças identificados por mineração de texto (onde cada
-imagem pode ter múltiplos rótulos), extraídos dos respectivos relatórios radiológicos usando
-processamento de linguagem natural. As quatorze patologias torácicas comuns incluem
-Atelectasia, Consolidação, Infiltração, Pneumotórax, Edema, Enfisema, Fibrose,
-Efusão, Pneumonia, Espessamento Pleural, Cardiomegalia, Nódulo, Massa e Hérnia , o que
-é uma extensão dos 8 padrões de doenças comuns listados no artigo do CVPR2017. Observe
-que os relatórios de radiologia originais (associados a esses estudos de raios-X do tórax) não
-são destinados a ser compartilhados publicamente por muitos motivos. Espera-se que os
-rótulos de doenças extraídos por mineração de texto tenham precisão superior a 90%. Encontre
-mais detalhes e desempenho de referência de modelos treinados baseados em 14 rótulos de
-doenças em nosso artigo no arXiv: 1705.02315.
-Os dados de imagens médicas são publicos e estão disponibilizados em:
-https://nihcc.app.box.com/v/ChestXray-NIHCC.
+O dataset ChestX-ray compreende 112.120 imagens de raios-X de vista frontal de 30.805 pacientes, com quatorze rótulos de doenças identificados por mineração de texto (onde cada
+imagem pode ter múltiplos rótulos), extraídos dos respectivos relatórios radiológicos usando processamento de linguagem natural. As quatorze patologias torácicas comuns incluem
+Atelectasia, Consolidação, Infiltração, Pneumotórax, Edema, Enfisema, Fibrose, Efusão, Pneumonia, Espessamento Pleural, Cardiomegalia, Nódulo, Massa e Hérnia , o que
+é uma extensão dos 8 padrões de doenças comuns listados no artigo do CVPR2017. Observe que os relatórios de radiologia originais (associados a esses estudos de raios-X do tórax) não
+são destinados a ser compartilhados publicamente por muitos motivos. Espera-se que os rótulos de doenças extraídos por mineração de texto tenham precisão superior a 90%. Encontre
+mais detalhes e desempenho de referência de modelos treinados baseados em 14 rótulos de doenças em nosso artigo no arXiv: 1705.02315.
+Os dados de imagens médicas são publicos e estão disponibilizados em:<br>
+https://nihcc.app.box.com/v/ChestXray-NIHCC
 Licença e atribuição
 md2pdf - Markdown to PDF 13/11/2023, 10:02
 https://md2pdf.netlify.app/ Página 2 de 3
 Não há restrições de uso das imagens de radiografia de tórax da NIH. No entanto, o conjunto de
 dados tem os seguintes requisitos de atribuição:
-Forneça um link para o site de download da NIH: https://nihcc.app.box.com/v/ChestXrayNIHCC
+Forneça um link para o site de download da NIH: [https://nihcc.app.box.com/v/ChestXray-NIHCC](https://nihcc.app.box.com/v/ChestXray-NIHCC)
 Inclua uma citação no documento CVPR 2017:
 ## Desenvolvimento:
 Como referência para o inicio do seu desenvolvimento, utlize o o repositório:
